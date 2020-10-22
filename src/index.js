@@ -1,0 +1,35 @@
+import React, { Fragment, useEffect } from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "./App.css";
+import MainBody from "./components/MainBody";
+import AboutMe from "./components/AboutMe";
+import Project from "./components/Project";
+import Skills from "./components/Skills";
+import Navbar from "./components/Navbar";
+
+const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <Fragment>
+      <Navbar />
+      <MainBody />
+      <AboutMe />
+      <Project />
+      <Skills />
+    </Fragment>
+  );
+};
+
+const App = () => (
+  <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <Route path="/" exact component={Home} />
+  </BrowserRouter>
+);
+
+ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,0 +1,92 @@
+{
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+  "FirstName": "Ryan",
+  "MiddleName": "",
+  "LastName": "Rozema",
+  "devDesc": "| Engineer | Architect | Web Developer | Athlete ",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fa-github",
+      "url": "https://github.com/rrozema12",
+      "style": "socialicons"
+    },
+    {
+      "id": 1,
+      "image": "fa-facebook",
+      "url": "https://www.facebook.com/ryanrozema",
+      "style": "socialicons"
+    },
+    {
+      "id": 2,
+      "image": "fa-instagram",
+      "url": "https://www.instagram.com/ryan_rozema/",
+      "style": "socialicons"
+    },
+    {
+      "id": 3,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/ryan-rozema-293335b4/",
+      "style": "socialicons"
+    },
+    {
+      "id": 4,
+      "image": "fa-twitter",
+      "url": "https://www.twitter.com/ryanrozema/",
+      "style": "socialicons"
+    }
+  ],
+  "skills": [
+    {
+      "icon": "",
+      "name": "Node.js"
+    },
+    {
+      "icon": "",
+      "name": "Express.js"
+    },
+    {
+      "icon": "",
+      "name": "GraphQL"
+    },
+    {
+      "icon": "",
+      "name": "React"
+    },
+    {
+      "icon": "",
+      "name": "Redux"
+    },
+    {
+      "icon": "",
+      "name": "MongoDB"
+    },
+    {
+      "icon": "",
+      "name": "RethinkDB"
+    },
+    {
+      "icon": "",
+      "name": "AWS"
+    },
+    {
+      "icon": "",
+      "name": "GitHub"
+    }
+  ],
+  "aboutHeading": "About",
+  "showInstaProfilePic": true,
+  "instaLink": "https://www.instagram.com/",
+  "instaUsername": "ryan_rozema",
+  "instaQuerry": "/?__a=1",
+  "aboutDescription": "I am a software engineer from Dana Point, CA with over 4 years of experience in full stack web development.  I am currently the Lead Software Engineer for CISOSHARE where I continue to challenge myself and grow as a developer, person, manager, and team member every day.",
+  "projectHeading": "Recent Projects",
+  "gitHubLink": "https://api.github.com/users/",
+  "gitHubUsername": "rrozema12",
+  "gitHubQuerry": "/repos?sort=pinned&direction=asc",
+  "projectsLength": 6,
+  "showNavigationbar": true,
+  "showBlog": false
+}
