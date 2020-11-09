@@ -7,7 +7,6 @@ import "./App.css";
 import MainBody from "./components/MainBody";
 import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
-import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
 
 const Home = () => {
@@ -21,7 +20,6 @@ const Home = () => {
       <MainBody />
       <AboutMe />
       <Project />
-      <Skills />
     </Fragment>
   );
 };

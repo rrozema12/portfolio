@@ -4,36 +4,36 @@ import Pdf from "../docs/resume.pdf";
 import {
   aboutHeading,
   aboutDescription,
-  showInstaProfilePic,
-  instaLink,
-  instaUsername,
-  instaQuerry,
+  showInstagramProfilePic,
+  instagramLink,
+  instagramUsername,
+  instagramQuery,
 } from "../data/configurations.json";
 
 const AboutMe = () => {
-  const [instaProfilePic, setInstaProfilePic] = useState("");
-  const [showInsta, setShowInsta] = useState(showInstaProfilePic);
+  const [instagramProfilePic, setInstagramProfilePic] = useState("");
+  const [showInstagram, setShowInstagram] = useState(showInstagramProfilePic);
   const [resumeURL] = useState(Pdf);
 
   useEffect(() => {
-    if (showInsta) {
+    if (showInstagram) {
       handleRequest();
     }
-  }, [showInsta]);
+  }, [showInstagram]);
 
   const handleRequest = (e) => {
     axios
-      .get(instaLink + instaUsername + instaQuerry)
+      .get(instagramLink + instagramUsername + instagramQuery)
       .then((response) => {
         // handle success
         // console.log(response.data.graphql);
-        return setInstaProfilePic(
+        return setInstagramProfilePic(
           response.data.graphql.user.profile_pic_url_hd
         );
       })
       .catch((error) => {
         // handle error
-        setShowInsta(false);
+        setShowInstagram(false);
         return console.error(error.message);
       })
       .finally(() => {
@@ -45,16 +45,16 @@ const AboutMe = () => {
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid p-5">
         <div className="row">
-          {showInsta && (
+          {showInstagram && (
             <div className="col-5 d-none d-lg-block align-self-center">
               <img
                 className="border border-secondary rounded-circle"
-                src={instaProfilePic}
+                src={instagramProfilePic}
                 alt="profilepicture"
               />
             </div>
           )}
-          <div className={`col-lg-${showInsta ? "7" : "12"}`}>
+          <div className={`col-lg-${showInstagram ? "7" : "12"}`}>
             <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
             <p className="lead text-center">{aboutDescription}</p>
             {resumeURL && (

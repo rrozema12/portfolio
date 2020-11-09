@@ -21,8 +21,8 @@
     },
     {
       "id": 2,
-      "image": "fa-instagram",
-      "url": "https://www.instagram.com/ryan_rozema/",
+      "image": "fa-instagramgram",
+      "url": "https://www.instagramgram.com/ryan_rozema/",
       "style": "socialicons"
     },
     {
@@ -40,53 +40,51 @@
   ],
   "skills": [
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/color/50/000000/nodejs.png",
       "name": "Node.js"
     },
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/doodle/48/000000/api.png",
       "name": "Express.js"
     },
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/color/48/000000/graphql.png",
       "name": "GraphQL"
     },
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/bubbles/50/000000/react.png",
       "name": "React"
     },
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/color/48/000000/redux.png",
       "name": "Redux"
     },
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/color/48/000000/mongodb.png",
       "name": "MongoDB"
     },
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/bubbles/50/000000/database.png",
       "name": "RethinkDB"
     },
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png",
       "name": "AWS"
     },
     {
-      "icon": "",
+      "icon": "https://img.icons8.com/doodle/50/000000/github--v1.png",
       "name": "GitHub"
     }
   ],
   "aboutHeading": "About",
-  "showInstaProfilePic": true,
-  "instaLink": "https://www.instagram.com/",
-  "instaUsername": "ryan_rozema",
-  "instaQuerry": "/?__a=1",
+  "showInstagramProfilePic": true,
+  "instagramLink": "https://www.instagram.com/",
+  "instagramUsername": "ryan_rozema",
+  "instagramQuery": "/?__a=1",
   "aboutDescription": "I am a software engineer from Dana Point, CA with over 4 years of experience in full stack web development.  I am currently the Lead Software Engineer for CISOSHARE where I continue to challenge myself and grow as a developer, person, manager, and team member every day.",
-  "projectHeading": "Recent Projects",
+  "projectHeading": "Projects",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "rrozema12",
-  "gitHubQuerry": "/repos?sort=pinned&direction=asc",
-  "projectsLength": 6,
-  "showNavigationbar": true,
+  "gitHubQuery": "/repos",
   "showBlog": false
 }

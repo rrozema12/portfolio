@@ -5,8 +5,7 @@ import {
   projectHeading,
   gitHubLink,
   gitHubUsername,
-  gitHubQuerry,
-  projectsLength,
+  gitHubQuery,
 } from "../data/configurations.json";
 
 const Project = () => {
@@ -14,19 +13,15 @@ const Project = () => {
 
   const handleRequest = useCallback((e) => {
     axios
-      .get(gitHubLink + gitHubUsername + gitHubQuerry)
+      .get(gitHubLink + gitHubUsername + gitHubQuery)
       .then((response) => {
-        // handle success
-        // console.log(response.data.slice(0, 4));
-        return setProjectsArray(response.data.slice(0, projectsLength));
+
+        return setProjectsArray(response.data);
       })
       .catch((error) => {
-        // handle error
         return console.error(error.message);
       })
-      .finally(() => {
-        // always executed
-      });
+      .finally(() => { });
   }, []);
 
   useEffect(() => {
