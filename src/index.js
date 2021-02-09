@@ -16,7 +16,6 @@ const Home = () => {
 
   return (
     <Fragment>
-      <Navbar />
       <MainBody />
       <AboutMe />
       <Project />

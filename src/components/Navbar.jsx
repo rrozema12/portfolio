@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Pdf from "../docs/resume.pdf";
-import { FirstName } from "../data/configurations.json";
 
 const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
@@ -18,9 +16,6 @@ const Navbar = (props) => {
       className={`navbar navbar-expand-lg fixed-top navbar-light ${isTop ? "bg-transparent" : "bg-gradient"
         } `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<${FirstName} />`}
-      </a>
       <button
         className="navbar-toggler"
         type="button"
@@ -33,36 +28,6 @@ const Navbar = (props) => {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
-            >
-              Projects
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={Pdf}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <b>Resume</b>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              <b>About</b>
-            </a>
-          </li>
-        </ul>
-      </div>
     </nav>
   );
 };

@@ -1,13 +1,9 @@
 {
-  "homepage": "http://rrozema12.github.io/portfolio",
+  "homepage": "https://rrozema12.github.io/portfolio",
   "name": "portfolio",
   "description": "",
   "version": "1.0.0",
   "private": true,
-  "author": {
-    "name": "Ryan Rozema",
-    "email": "rrozema2@gmail.com"
-  },
   "dependencies": {
     "@popperjs/core": "^2.1.1",
     "axios": "^0.19.2",
