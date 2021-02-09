@@ -1,12 +1,12 @@
 {
-  "homepage": "https://rrozema12.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "https://rrozema12.github.io/site",
+  "name": "site",
   "description": "",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.1.1",
-    "axios": "^0.19.2",
+    "axios": ">=0.21.1",
     "bootstrap": "^4.4.1",
     "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
