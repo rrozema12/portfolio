@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 import ReactDOM from "react-dom";
-import { HashRouter as BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
