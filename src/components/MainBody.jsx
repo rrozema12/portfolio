@@ -58,5 +58,4 @@ const MainBody = () => {
     </div>
   );
 };
-
 export default MainBody;
