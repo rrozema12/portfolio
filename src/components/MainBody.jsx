@@ -31,7 +31,7 @@ const MainBody = () => {
         id="home"
         className="title jumbotron jumbotron-fluid bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
-        <div className="container container-fluid text-center ">
+        <div className="container container-fluid text-center">
           <h1 className="display-1">
             {FirstName + " " + MiddleName + " " + LastName}
           </h1>
@@ -53,8 +53,12 @@ const MainBody = () => {
               </a>
             ))}
           </div>
+          <div>
+            <i style={{color: "white"}} className="fa fa-arrow-circle-down fa-2x" />
+          </div>
         </div>
       </div>
+
     </div>
   );
 };
