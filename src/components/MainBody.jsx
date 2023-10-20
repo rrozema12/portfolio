@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Typist from "react-typist";
-import {
+import configuration from "../data/configuration";
+const {
   FirstName,
   LastName,
   MiddleName,
   devDesc,
   icons,
-} from "../data/configurations.json";
+} = configuration
 
 const MainBody = () => {
   const [hoverstatus, setHoverstatus] = useState(

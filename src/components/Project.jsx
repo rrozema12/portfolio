@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
-import {
+import configuration from "../data/configuration";
+const {
   projectHeading,
   gitHubLink,
   gitHubUsername,
   gitHubQuery,
-} from "../data/configurations.json";
+} = configuration
 
 const Project = () => {
   const [projectsArray, setProjectsArray] = useState([]);

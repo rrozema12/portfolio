@@ -1,4 +1,4 @@
-{
+const config = {
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
   "gradientColors": "#23A6D5, #23D5AB",
@@ -81,10 +81,12 @@
   "instagramLink": "https://www.instagram.com/",
   "instagramUsername": "ryan_rozema",
   "instagramQuery": "/?__a=1",
-  "aboutDescription": "I am the Lead Software Engineer for CISOSHARE, a cyber security program development company located in San Clemente, CA. I have over 5 years of full-stack web development experience creating secure and fast single page applications. I am a team player at work, on the volleyball court, and at home with my fiancé.",
+  "aboutDescription": "I am a Senior Software Engineer (Level 4) at Grain Technology, Inc., a financial technology company in Oakland, CA. I have over 7 years of backend and 4 years of frontend engineering experience. I am a hard worker who can make a significantly positive impact to your team and company culture!",
   "projectHeading": "Projects",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "rrozema12",
   "gitHubQuery": "/repos",
   "showBlog": false
 }
+
+export default config

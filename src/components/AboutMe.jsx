@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Pdf from "../docs/resume.pdf";
-import {
+import configuration from "../data/configuration";
+const {
   aboutHeading,
   aboutDescription,
   showInstagramProfilePic,
   instagramLink,
   instagramUsername,
   instagramQuery,
-} from "../data/configurations.json";
+} = configuration
 
 const AboutMe = () => {
   const [instagramProfilePic, setInstagramProfilePic] = useState("");
